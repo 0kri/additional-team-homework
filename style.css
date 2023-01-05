@@ -80,11 +80,11 @@ nav {
     align-items: right;
 }
 .image-with-buttons{
-    width: 50%;
+    width: 60%;
     background-color: #0020F4;
 }
 .image-with-buttons img {
-    width: 70%;
+    width: 60%;
 }
 .buttons-marks {
     display: flex;
