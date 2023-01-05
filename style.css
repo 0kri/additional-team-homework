@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div {
+    width: 100%;
+    display: inline-block;
+    height: 500px;
+    position: relative;
+}
+.about-us-text {
+    width: 30%;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 13px;
+    margin-left: 150px
+}
+.foto {
+    width: 45%;
+    display:inline-block ;
+    margin-left: 10%;
+    position: absolute;
+    top: 50%;
+
+    
+}
+p {
+    margin-top: 50px;
+}
+  .foto img {
+    width: 450px;
+    height: 400px;
+    box-shadow: 6px 6px 3px blue;
+    border-radius: 8px;
+  }  
