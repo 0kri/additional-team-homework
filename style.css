@@ -20,6 +20,7 @@ nav {
     padding-right: 12.2%;
     background-color:#0020F4;
     position: fixed;
+    z-index: 100;
 }
 #navigation-bar {
     display: flex;
@@ -162,12 +163,18 @@ display:flex;
 .about-us-h2 {
     letter-spacing: 1px;
 }
+.about-us {
+    margin-top: 50px;
+}
+.about-us-wrapper {
+    position: relative;
+} 
 .foto {
     width: 45%;
     display:inline-block ;
     margin-left: 10%;
     position: absolute;
-    top: 50%;
+    top: 44%;
 }
 .about-us-p {
     margin-top: 50px;
