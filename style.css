@@ -171,3 +171,21 @@
     font-size: 13px;
     padding: 10px 10px;
 }
+.other-projects {
+    position: relative;
+}
+.other-projects-h3 {
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -15%;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.other-projects-h3::before {
+    content: "";
+    width: 2px;
+    height: 11px;
+    background-color: black;
+    display: inline-block;
+    margin-right: 10px;
+}
