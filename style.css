@@ -16,8 +16,8 @@
     width: 463px;
 }
 .map-image{
-    width: 463px;
-    height: 197px;
+    width: 200px;
+    height: 100px;
     border-radius: 16px;
     margin-top: 58px;
 }
@@ -59,7 +59,7 @@ input {
     border-bottom: groove;
     border-width: 1px;
 }
-.just-button {
+button {
     margin-top: 40px;
     border: none;
     height: 55px;
@@ -82,4 +82,9 @@ input {
 ::placeholder {
     color: #ffffff;
     font-size: 16px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
