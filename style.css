@@ -341,3 +341,45 @@ display:flex;
     display: inline-block;
     margin-right: 10px;
 }
+.partners {
+    display: flex;
+    justify-content: space-between;    
+}
+.partners .partners-h {
+    width: 30%;
+    margin-left: 10%;
+}
+.partners h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #171717;
+}
+.partners p {
+    margin-top: 10%;
+    font-size: 15px;
+    color: #171717;
+}
+.standards-date {
+    text-decoration: none;
+    color: #0A22F4;
+}
+.partners .bullets {
+    margin: 2% 5% 5% 0;
+    display: flex;
+    justify-content: end;
+}
+.partners .bullet {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #0A22F4;
+    margin: 5px;
+    opacity: 0.3;
+}
+.partners .bullet:hover {
+    opacity: 1;
+}
+.photo-wrapper-for-partners {
+    width: 50%;
+    margin-right: 5%;
+}
