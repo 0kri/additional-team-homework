@@ -351,6 +351,7 @@ display:flex;
 }
 .partners h2 {
     font-size: 32px;
+    letter-spacing: 1px;
     font-weight: bold;
     color: #171717;
 }
@@ -364,7 +365,7 @@ display:flex;
     color: #0A22F4;
 }
 .partners .bullets {
-    margin: 2% 5% 5% 0;
+    margin: 2% 15% 5% 0;
     display: flex;
     justify-content: end;
 }
@@ -381,5 +382,8 @@ display:flex;
 }
 .photo-wrapper-for-partners {
     width: 55%;
-    margin-right: 3%;
+    margin-left: 15%;
+}
+.photo-wrapper-for-partners img {
+    width: 25%;
 }
