@@ -344,6 +344,7 @@ display:flex;
 .partners {
     display: flex;
     justify-content: space-between;    
+    margin-bottom: 10%;
 }
 .partners .partners-h {
     width: 30%;
@@ -387,19 +388,25 @@ display:flex;
 .photo-wrapper-for-partners img {
     width: 25%;
 }
+.bolo-gverdi {
+    background-color: #0020f4;
+}
 .kontaqti {
     width: 500px;
     height: 500px;
-    margin-top: 275px;
+    margin-top: 175px;
     margin-left: 100px;
 }
 .kontaqti p {
     color: white;
-    margin-bottom: 58px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 16px;
 }
 .kontaqti h3 {
     color: white;
     font-size: 32px;
+    letter-spacing: 1px;
 }
 .flex {
     display:flex;
@@ -414,6 +421,7 @@ display:flex;
     display: block;
     border-radius: 50%;
     height:50px;
+    border: 13px solid white;
 }
 .mail {
     margin-left: 100px;
@@ -423,6 +431,19 @@ display:flex;
     border-radius: 50%;
     height: 50px;
     display: inline-block;
+    border: 13px solid white;
+}
+.call h4 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.mail h4 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
 }
 input {
     background-color: #0a22f4;
@@ -455,7 +476,7 @@ form {
     margin-left: 1000px;
     display: block;
     position: absolute;
-    margin-top: 373px;
+    margin-top: 273px;
     margin-right: 24px;
     padding-right: 100px;
 }
@@ -464,7 +485,7 @@ form {
     justify-content:space-between;
     align-items:center;
     margin-left: 5px;
-    margin-top: 100px;
+    padding-top: 100px;
     color: white;
 }
 .footer-1{
@@ -473,4 +494,7 @@ form {
 }
 .img1{
     margin-left: 20px;
+}
+footer {
+    background-color: #0020f4;
 }
